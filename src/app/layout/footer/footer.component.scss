@@ -1,0 +1,33 @@
+.footer {
+    background-color: #363a3d;
+    padding: 28px 0;
+    border-radius: 0 0 22px 22px;
+    .content{
+        .left-side {
+            p {
+                color: #b5c4ca;
+                font-size: 16px;
+                font-weight: 500;
+                margin-bottom: 0px;
+            }
+        }
+        .right-side {
+            display: flex;
+            .social-item {
+                width: 35px;
+                height: 35px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #5f6569;
+                border: 1px solid #5f6569;
+                margin-right: 10px;
+                border-radius: 50px;
+                i {
+                    font-size: 16px;
+                    color: #363a3d;
+                }
+            }
+        }
+    }
+}
