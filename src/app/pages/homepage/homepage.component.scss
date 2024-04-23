@@ -9,13 +9,16 @@
         background-position: center;
         background-repeat: no-repeat;
         background-blend-mode: soft-light;
-        background-color: grey;
+        background-color: #333333;
         display: flex;
         align-items: center;
         justify-content: start;
+        @media (max-width: $tablet) {
+            height: 65vh;
+        }
         .content {
             h5 {
-                color: #e8e8e8;
+                color: $silver;
                 font-size: 15px;
                 font-weight: 700;
                 padding-bottom: 20px;
@@ -23,14 +26,18 @@
             h1 {
                 font-size: 45px;
                 font-weight: 600;
-                color: white;
+                color: $white;
                 padding-bottom: 28px;
             }
             p {
-                color: #e8e8e8;
+                color: $silver;
                 font-size: 20px;
                 font-weight: 400;
                 padding-bottom: 50px;
+                width: 45%;
+                @media (max-width: $tablet) {
+                    width: 100%;
+                }
             }
             .read-more {
                 a {
@@ -41,11 +48,12 @@
                         }
                     }
                     font-size: 15px;
-                    color: white;
+                    font-weight: 500;
+                    color: $white;
                     padding-right: 12px;
                     i {
                         font-size: 15px;
-                        color: #959595;
+                        color: $darkGray;
                         padding-left: 6px;
                     }
                 }
@@ -61,14 +69,17 @@
             text-align: center;
             a {
                 font-size: 20px;
-                color: #313d42;
+                color: $blueGray;
                 font-weight: 700;
                 i {
                     font-size: 15px;
-                    color: #7e8e97;
+                    color: $darkGray;
                     padding-left: 8px;
                 }
             }
+        }
+        @media (max-width: $tablet) {
+            padding: 0 2rem;
         }
     }
 }

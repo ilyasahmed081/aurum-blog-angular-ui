@@ -1,20 +1,11 @@
-body {
-    overflow-x: hidden;
-    margin-bottom: 0 auto !important;
-    overflow-x: hidden !important;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  ul {
-    margin: 0 !important;
-  }
-  
-  a {
-    text-decoration: none !important;
-  }
+// colors 
+$white: #ffffff;
+$black: #000000;
+$darkGray: #7e8e97;
+$lightGray: #f1f1f1;
+$blueGray: #313d42;
+$lighterGray: #f7f7f7;
+$silver: #bbbbbb;
+
+// device resolutions
+$tablet: 768px;
