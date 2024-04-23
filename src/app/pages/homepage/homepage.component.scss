@@ -3,7 +3,7 @@
 .homepage {
     .banner {
         width: 100%;
-        height: 90vh;
+        height: 100vh;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -13,22 +13,41 @@
         align-items: center;
         justify-content: start;
         .content {
-            p {
-                &.date {
-                    color: #e8e8e8;
-                    font-size: 15px;
-                    font-weight: 500;
-                }
-                &.sub-head {
-                    color: #e8e8e8;
-                    font-size: 15px;
-                    font-weight: 500;   
-                }
+            h5 {
+                color: #e8e8e8;
+                font-size: 15px;
+                font-weight: 700;
+                padding-bottom: 20px;
             }
             h1 {
-                font-size: 30px;
+                font-size: 45px;
                 font-weight: 600;
                 color: white;
+                padding-bottom: 28px;
+            }
+            p {
+                color: #e8e8e8;
+                font-size: 20px;
+                font-weight: 400;
+                padding-bottom: 50px;
+            }
+            .read-more {
+                a {
+                    &.read {
+                        padding-right: 40px;
+                        i {
+                            padding-left: 14px;
+                        }
+                    }
+                    font-size: 15px;
+                    color: white;
+                    padding-right: 12px;
+                    i {
+                        font-size: 15px;
+                        color: #959595;
+                        padding-left: 6px;
+                    }
+                }
             }
         }
     }
