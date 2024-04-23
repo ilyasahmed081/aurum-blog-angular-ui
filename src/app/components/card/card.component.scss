@@ -1,0 +1,49 @@
+@import '/src/styles.scss';
+
+.b-card {
+    border: 1px solid #ffffff00;
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        object-position: center;
+    }
+    .inner-content {
+        padding: 20px;
+        background-color: #f7f7f7;
+        h5 {
+            color: #5e6f78;
+            font-size: 14px;
+            font-weight: 600;
+            padding-bottom: 15px;
+        }
+        h1 {
+            font-size: 21px;
+            font-weight: 700;
+            color: #313d42;
+            padding-bottom: 20px;
+        }
+        p {
+            color: #859096;
+            font-size: 15px;
+            font-weight: 500;
+            padding-bottom: 34px;
+        }
+        .read-more {
+            a {
+                &.read {
+                    color: #313d42;
+                }
+                font-size: 15px;
+                font-weight: 600;
+                color: #7e8e97;
+                padding-right: 12px;
+                i {
+                    font-size: 15px;
+                    color: #7e8e97;
+                    padding-left: 6px;
+                }
+            }
+        }
+    }
+}
