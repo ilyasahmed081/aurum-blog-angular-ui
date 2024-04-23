@@ -10,10 +10,17 @@
                 color: $darkGray;
                 font-size: 16px;
                 font-weight: 500;
+                @media (max-width: $tablet) {
+                    text-align: center;
+                }
             }
         }
         .right-side {
             display: flex;
+            @media (max-width: $tablet) {
+                margin-top: 20px;
+                justify-content: center;
+            }
             .social-item {
                 width: 35px;
                 height: 35px;

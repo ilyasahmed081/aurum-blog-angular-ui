@@ -15,7 +15,7 @@
                         <a href="#" class="search">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </a>
-                        <a href="#" class="menu">
+                        <a class="menu" (click)="onToggle()">
                             Menu
                             <i class="fa-solid fa-bars"></i>
                         </a>
@@ -25,6 +25,21 @@
         </div>
     </div>
     
-    <!-- menu flap -->
-    <div class="flap-menu"></div>
+    <!-- sidemenu -->
+    <div class="sidemenu" [ngClass]="showSidemenu == true ? 'active' : ''">
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Blogs</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="#">Careers</a>
+            </li>
+        </ul>
+    </div>
 </header>

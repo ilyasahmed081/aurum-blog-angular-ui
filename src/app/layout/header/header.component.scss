@@ -51,6 +51,7 @@
                     color: $darkGray;
                     font-size: 17px;
                     font-weight: 500;
+                    cursor: pointer;
                     i {
                         &.fa-bars {
                             font-size: 24px;
@@ -61,5 +62,34 @@
                 }
             }
         }
+    }
+}
+
+.sidemenu {
+    width: 500px;
+    height: 100vh;
+    background: $black;
+    color: $white;
+    position: absolute;
+    top: 80px;
+    right: -500px;
+    z-index: 1;
+    transition: 0.5s;
+    &.active {
+        right: 0;
+    }
+    ul {
+        list-style: none;
+        li {
+            padding: 12px 0;
+            a {
+                color: $white;
+                font-weight: 500;
+                font-size: 16px;
+            }
+        }
+    }
+    @media (max-width: $tablet) {
+        width: 100%;
     }
 }
