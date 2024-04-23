@@ -1,10 +1,9 @@
 @import '/src/styles.scss';
 
 .b-card {
-    border: 1px solid #ffffff00;
     img {
         width: 100%;
-        height: auto;
+        height: 50vh;
         object-fit: cover;
         object-position: center;
     }

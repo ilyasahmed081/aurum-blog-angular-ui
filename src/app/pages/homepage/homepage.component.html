@@ -1,11 +1,12 @@
 <div class="homepage">
-    <div class="banner" style="background-image: url(../../../assets/img/thomas-griesbeck-BS-Uxe8wU5Y-unsplash.jpg);">
+    <div class="banner" style="background-image: url(https://rb.gy/7zg4hp);">
         <div class="container">
             <div class="row">
                 <div class="content">
                     <h5>2014 May 29</h5>
                     <h1>Jumping Out of A Spaceship</h1>
-                    <p>Sorry, checking all the water in this area; there's an <br> escaped fish. Insistently Bow ties are cool!</p>
+                    <p>Sorry, checking all the water in this area; there's an <br> escaped fish. Insistently Bow ties
+                        are cool!</p>
                     <div class="read-more">
                         <a href="#" class="read">
                             Read more
@@ -18,6 +19,24 @@
                         <a href="#">
                             Read more
                             <i class="fa-solid fa-comment"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- blog cards -->
+    <div class="blogs">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4 ps-0 pe-0" *ngFor="let item of cards">
+                    <app-card [item]="item"></app-card>
+                </div>
+                <div class="col-12">
+                    <div class="load-more">
+                        <a href="#">
+                            Load more articles
+                            <i class="fa-solid fa-arrow-right-long"></i>
                         </a>
                     </div>
                 </div>
