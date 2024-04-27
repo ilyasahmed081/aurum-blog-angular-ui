@@ -1,6 +1,7 @@
 @import '/src/styles.scss';
 
 .header {
+    border-bottom: 1px solid $lightGray;
     .content {
         .logo-side {
             a {
